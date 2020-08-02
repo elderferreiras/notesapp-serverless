@@ -1,5 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
+import { API } from 'aws-amplify';
+import { List } from 'antd';
+import 'antd/dist/antd.css';
+import { listNotes } from './graphql/queries';
 import './App.css';
 
 function App() {
