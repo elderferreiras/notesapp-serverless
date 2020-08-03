@@ -1,9 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+let wrapped = shallow(<App />);
+
+describe('App', () => {
+  it('should render the Title Component correctly', () => {
+    expect(wrapped.find('Input')).toHaveLength(2);
+  });
 });
