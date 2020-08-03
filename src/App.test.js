@@ -8,4 +8,7 @@ describe('App', () => {
   it('should render two inputs', () => {
     expect(wrapped.find('Input')).toHaveLength(2);
   });
+  it('should render a button', () => {
+    expect(wrapped.find('Button')).toHaveLength(1);
+  });
 });
