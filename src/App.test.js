@@ -5,7 +5,7 @@ import App from './App';
 let wrapped = shallow(<App />);
 
 describe('App', () => {
-  it('should render the Title Component correctly', () => {
+  it('should render two inputs', () => {
     expect(wrapped.find('Input')).toHaveLength(2);
   });
 });
