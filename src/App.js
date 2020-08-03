@@ -3,6 +3,7 @@ import { v4 as uuid } from 'uuid';
 import { API } from 'aws-amplify';
 import { List, Input, Button } from 'antd';
 import 'antd/dist/antd.css';
+
 import { listNotes } from './graphql/queries';
 import {
   createNote as CreateNote,
