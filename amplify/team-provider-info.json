@@ -8,7 +8,13 @@
             "DeploymentBucketName": "notesapp-dev-20200801175104-deployment",
             "UnauthRoleName": "notesapp-dev-20200801175104-unauthRole",
             "StackName": "notesapp-dev-20200801175104",
-            "StackId": "arn:aws:cloudformation:us-west-2:757599292990:stack/notesapp-dev-20200801175104/3ebc1480-d45a-11ea-aaf6-02f2e728f4d0"
+            "StackId": "arn:aws:cloudformation:us-west-2:757599292990:stack/notesapp-dev-20200801175104/3ebc1480-d45a-11ea-aaf6-02f2e728f4d0",
+            "AmplifyAppId": "d1mywcuqkxm3lv"
+        },
+        "categories": {
+            "auth": {
+                "notesappb4b02ced": {}
+            }
         }
     }
 }
